@@ -1,0 +1,12 @@
+to remove output files i used:
+rm -rf [1-9]* 0.[0-9]* 
+
+to move output files i used:
+mv -- [1-9]* 0.[0-9]* output
+
+to check what files get affected i used:
+ls -d -- [1-9]* 0.[0-9]*
+
+to get a log of the solver instead of just printing to terminal:
+mkdir -p logs
+foamRun > logs/pimple.log

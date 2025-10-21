@@ -1,0 +1,8 @@
+This is the base file, a copy of the original cavity tutorial
+
+i used it to track courant number as the simulation continued
+it finished at 0.338851 mean and 0.828487 max
+
+the later folders will track it and with further mesh refinement, we can expect it to go higher
+
+at what point does the simulation break?
