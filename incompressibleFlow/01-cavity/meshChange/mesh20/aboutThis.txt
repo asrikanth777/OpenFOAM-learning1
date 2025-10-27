@@ -6,3 +6,4 @@ it finished at 0.338851 mean and 0.828487 max
 the later folders will track it and with further mesh refinement, we can expect it to go higher
 
 at what point does the simulation break?
+- It broke at 80x80, and the timestep then needed to be reduced to work.

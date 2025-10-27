@@ -1,0 +1,6 @@
+For this project, whats going to be done is an analysis using different turbulence models
+-laminar
+-kepsilon
+-komegaSST
+
+further experiments will be introduced afterwards.
