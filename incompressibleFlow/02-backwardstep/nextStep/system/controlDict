@@ -44,4 +44,29 @@ timePrecision   6;
 
 runTimeModifiable true;
 
+functions
+{
+    yPlusAllWalls
+    {
+        type            yPlus;                          
+        libs            ("libfieldFunctionObjects.so"); // loads the function
+
+        // Operate on all wall patches by default, add patches entry to do regions
+
+        
+        executeControl  timeStep;
+        executeInterval 100;   
+        writeControl    timeStep;
+        writeInterval   100;   
+
+        // Optional quality-of-life switches:
+        // region        region0;     // uncomment to do different regions instead of all
+        log           true;        // prints y+ to log
+        writeFields   yes;         // writes y+ into time directories to see in parview
+        // timeStart     0;           
+        // timeEnd       1e15;         
+    }
+}
+
+
 // ************************************************************************* //

@@ -4,3 +4,7 @@ For this project, whats going to be done is an analysis using different turbulen
 -komegaSST
 
 further experiments will be introduced afterwards.
+
+UPDATE 29 OCTOBER 2025
+- When running with kOmegaSST, the sim did not reach convergence and capped out at 2000s run time.
+    + first approach is to refine the mesh, and make y+ smaller along the walls of the backward step.
